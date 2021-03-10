@@ -42,6 +42,7 @@ h1 {
   text-decoration: none;
   color: #fff;
 }
+
 .obstacles-group article{
   text-align: center;
   margin: 1rem;
@@ -49,7 +50,12 @@ h1 {
   border-radius: 25px;
 }
 .obstacles-group article:hover{
+  
   background: #eef13f;
+  transition: 1s;
+}
+.obstacles-group article:focus { 
+  color:#fe6638;
 }
 nav ul {
   justify-content: space-between;
@@ -101,6 +107,12 @@ section h2{
   margin: 1rem;
   padding: 0.8rem;
 }
+.prizes article:hover{
+  background: var(--yellow);
+  border: 4px dotted var(--green);
+  transition: 1s;
+
+}
 .apply .s2{
   padding: 2rem;
 }
@@ -138,7 +150,7 @@ footer{
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
-a:hover{
+nav a:hover{
   background: grey;
   text-transform: bold;
   color: white;
@@ -165,5 +177,10 @@ a:hover{
     max-width: 67ch;
     width: auto;
     margin: auto;
+  }
+}
+@media (hover: hover) {
+  .prizes article:hover{
+    color:var(--orange);
   }
 }
