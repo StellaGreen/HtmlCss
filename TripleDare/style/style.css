@@ -48,6 +48,9 @@ h1 {
   background: var(--green);
   border-radius: 25px;
 }
+.obstacles-group article:hover{
+  background: #eef13f;
+}
 nav ul {
   justify-content: space-between;
   background: rgb(127, 178, 56, 0.8);
